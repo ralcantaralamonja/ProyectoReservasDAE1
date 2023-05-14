@@ -3,9 +3,27 @@ package Reserva;
 import java.util.Date;
 
 public class Hotel {
+
+String Cod_Hot = "";
 String Dir_Hc = "";
 String Tel_Hc = "";
-Date Fec_Const ;
+
+    public Hotel(String cod_Hot, String dir_Hc, String tel_Hc, Date fec_Const) {
+        Cod_Hot = cod_Hot;
+        Dir_Hc = dir_Hc;
+        Tel_Hc = tel_Hc;
+        Fec_Const = fec_Const;
+    }
+
+    public String getCod_Hot() {
+        return Cod_Hot;
+    }
+
+    public void setCod_Hot(String cod_Hot) {
+        Cod_Hot = cod_Hot;
+    }
+
+    Date Fec_Const ;
 
     public String getDir_Hc() {
         return Dir_Hc;
@@ -31,9 +49,5 @@ Date Fec_Const ;
         Fec_Const = fec_Const;
     }
 
-    public Hotel(String dir_Hc, String tel_Hc, Date fec_Const) {
-        Dir_Hc = dir_Hc;
-        Tel_Hc = tel_Hc;
-        Fec_Const = fec_Const;
-    }
+
 }
