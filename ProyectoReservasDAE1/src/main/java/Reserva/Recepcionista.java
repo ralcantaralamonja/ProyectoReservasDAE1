@@ -11,7 +11,6 @@ public class Recepcionista {
         this.apellido = apellido;
         this.id = id;
     }
-
     public void registrarReserva() {
 
     }
