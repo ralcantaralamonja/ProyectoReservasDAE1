@@ -20,7 +20,8 @@ public class Main {
         Habitacion objHabitacion = new Habitacion("matrimonial", 3,"ocupada");
         System.out.println(objHabitacion.getNumPiso()+ " - " + objHabitacion.getTipoHabitacion() + "-" + " Estado de habitación: " + objHabitacion.getDisponibilidadHabitacion());
 
-
+        Usuario objUsuario = new Usuario(1,"andre","flores","jh@gmail.com","4780750","jr.piura");
+        System.out.println(objUsuario.getID_Usuario());
 
 
 
