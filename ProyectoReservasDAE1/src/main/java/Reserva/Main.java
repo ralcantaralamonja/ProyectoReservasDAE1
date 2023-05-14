@@ -17,6 +17,9 @@ public class Main {
         System.out.println(clienteObj.getNombreCliente());
 
 
+        Habitacion objHabitacion = new Habitacion("matrimonial", 3,"ocupada");
+        System.out.println(objHabitacion.getNumPiso()+ " - " + objHabitacion.getTipoHabitacion() + "-" + " Estado de habitación: " + objHabitacion.getDisponibilidadHabitacion());
+
 
 
 
