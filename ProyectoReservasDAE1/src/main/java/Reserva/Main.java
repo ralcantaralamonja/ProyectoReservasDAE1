@@ -1,5 +1,5 @@
 package Reserva;
-
+import java.util.Date;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -19,6 +19,7 @@ public class Main {
 
         Habitacion objHabitacion = new Habitacion("matrimonial", 3,"ocupada");
         System.out.println(objHabitacion.getNumPiso()+ " - " + objHabitacion.getTipoHabitacion() + "-" + " Estado de habitación: " + objHabitacion.getDisponibilidadHabitacion());
+
 
 
 
