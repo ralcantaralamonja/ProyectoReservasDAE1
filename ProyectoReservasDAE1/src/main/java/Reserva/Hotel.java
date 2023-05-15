@@ -4,23 +4,23 @@ import java.util.Date;
 
 public class Hotel {
 
-String Cod_Hot = "";
+String Cod_Ho = "";
 String Dir_Hc = "";
 String Tel_Hc = "";
 
     public Hotel(String cod_Hot, String dir_Hc, String tel_Hc, Date fec_Const) {
-        Cod_Hot = cod_Hot;
-        Dir_Hc = dir_Hc;
+        Cod_Ho = Cod_Ho;
+        Dir_Hc = Dir_Hc;
         Tel_Hc = tel_Hc;
         Fec_Const = fec_Const;
     }
 
     public String getCod_Hot() {
-        return Cod_Hot;
+        return Cod_Ho;
     }
 
     public void setCod_Hot(String cod_Hot) {
-        Cod_Hot = cod_Hot;
+        Cod_Ho = cod_Hot;
     }
 
     Date Fec_Const ;
