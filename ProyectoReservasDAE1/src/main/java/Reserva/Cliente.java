@@ -6,21 +6,21 @@ import java.util.Date;
 
 public class Cliente {
 
-    int codigoCliente;
-    String nombreCliente;
-    String apellidoCliente;
-    String DNICliente ;
-    String sexoCliente;
-    String tipoCliente;
-    String direccionCliente;
-    String usuario_ultModificación;
-    char estadoCliente;
-    Date fecha_registroCliente;
-    Date feha_ultModCliente;
-    String correoCliente;
-    String celularCliente;
-    char estadoCivilCliente;
-    Date fec_nacCliente;
+    private  int codigoCliente;
+    private String nombreCliente;
+    private String apellidoCliente;
+    private String DNICliente ;
+    private String sexoCliente;
+    private String tipoCliente;
+    private String direccionCliente;
+    private String usuario_ultModificación;
+    private char estadoCliente;
+    private Date fecha_registroCliente;
+    private Date feha_ultModCliente;
+    private String correoCliente;
+    private String celularCliente;
+    private char estadoCivilCliente;
+    private Date fec_nacCliente;
 
 
     public Cliente(int codigoCliente, String nombreCliente, String apellidoCliente, String DNICliente, String sexoCliente, String tipoCliente, String direccionCliente, String usuario_ultModificación, char estadoCliente, Date fecha_registroCliente, Date feha_ultModCliente, String correoCliente, String celularCliente, char estadoCivilCliente, Date fec_nacCliente) {

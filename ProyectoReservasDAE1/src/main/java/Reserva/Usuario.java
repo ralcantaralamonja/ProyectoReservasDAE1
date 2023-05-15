@@ -1,12 +1,12 @@
 package Reserva;
 
 public class Usuario {
-    int ID_Usuario;
-    String Nombre;
-    String Apellido;
-    String Correo;
-    String teléfono;
-    String Dirección;
+    private int ID_Usuario;
+    private String Nombre;
+    private String Apellido;
+    private String Correo;
+    private String teléfono;
+    private String Dirección;
 
 
     public Usuario(int ID_Usuario,String Nombre, String Apellido, String Correo, String teléfono, String Dirección){

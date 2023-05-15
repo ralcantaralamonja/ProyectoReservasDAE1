@@ -4,10 +4,10 @@ import java.util.Date;
 
 public class Hotel {
 
-    String Cod_Ho = "";
-    String Dir_Ho = "";
-    String Tel_Hc = "";
-    Date Fec_Const;
+    private String Cod_Ho = "";
+    private String Dir_Ho = "";
+    private String Tel_Hc = "";
+    private Date Fec_Const;
 
     public Hotel(String cod_Ho, String dir_Ho, String tel_Hc, Date fec_Const) {
         Cod_Ho = cod_Ho;

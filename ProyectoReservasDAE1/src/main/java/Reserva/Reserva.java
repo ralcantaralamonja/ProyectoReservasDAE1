@@ -3,14 +3,14 @@ package Reserva;
 import java.util.Date;
 
 public class Reserva {
-    int codigoReserva;
-    String FechaInicio;
-    String FechaFin;
-    int codigoCliente;
-    String nombreCliente;
-    String estadoReserva;
+    private int codigoReserva;
+    private String FechaInicio;
+    private String FechaFin;
+    private int codigoCliente;
+    private String nombreCliente;
+    private String estadoReserva;
 
-    String apellidoCliente;
+    private String apellidoCliente;
 
 
     public Reserva(int codigoReserva, String FechaInicio, String FechaFin, int codigoCliente,

@@ -2,9 +2,9 @@ package Reserva;
 
 public class TipoHabitacion {
 
-    int codigoHabitacion;
-    String descripcion;
-    double tarifa;
+    private int codigoHabitacion;
+    private String descripcion;
+    private double tarifa;
 
     public TipoHabitacion(int codigoHabitacion, String descripcion, double tarifa) {
         this.codigoHabitacion = codigoHabitacion;

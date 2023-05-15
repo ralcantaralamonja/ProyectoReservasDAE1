@@ -4,11 +4,11 @@ import java.util.Date;
 
 public class Habitacion {
 
-    int codHabitacion;
-    String tipoHabitacion;
-    int numPiso;
-    String disponibilidadHabitacion;
-    int codHotel;
+    private int codHabitacion;
+    private String tipoHabitacion;
+    private int numPiso;
+    private String disponibilidadHabitacion;
+    private int codHotel;
 
     public Habitacion(int codHabitacion, String tipoHabitacion,int numPiso, String disponibilidadHabitacion, int codHotel){
         this.codHabitacion= codHabitacion;
