@@ -5,13 +5,14 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.Data;
-
+@Entity
+@Data
 
 public class Reserva {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long codigoReserva;
+    private Long codigoReservaid;
     private String FecIniReserva;
     private String FecFinReserva;
     private int CodigoCliente ;
