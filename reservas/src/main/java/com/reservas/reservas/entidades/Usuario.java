@@ -11,6 +11,7 @@ import org.springframework.boot.autoconfigure.web.WebProperties;
 public class Usuario {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private long idusuario;
     private String login_user;
     private String password_user;
     private int niv_user;
