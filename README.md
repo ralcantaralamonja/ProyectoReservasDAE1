@@ -6,7 +6,7 @@ participantes :
 
 * Alcantara Lamonja	Ricardo Luis Alejandro 
 * Airas Remaycuna Ana Zoila 
-* Sedano Solórzano Kimmy 
+* Sedano Solórzano Kimberly 
 * Gonzales Paz Orlando Alonso 
 * Lozano Peña Gian Franco 
 * Rodriguez Lara Carlos Urbano 
