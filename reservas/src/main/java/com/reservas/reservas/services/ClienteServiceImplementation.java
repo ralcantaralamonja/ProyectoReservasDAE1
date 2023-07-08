@@ -20,7 +20,10 @@ public class ClienteServiceImplementation implements IClienteService{
                 .map(item->{
                     ClienteDTO clienteDTO = new ClienteDTO();
                     clienteDTO.setFullName(item.getNombresCliente()+ " " + item.getApellidosCliente());
+                    clienteDTO.setDNICliente(item.getDNICliente());
+                    clienteDTO.setDireccionCliente(item.getDireccionCliente());
                     clienteDTO.setCorreoCliente(item.getCorreoCliente());
+                    clienteDTO.setCelularCliente(item.getCelularCliente());
                     return clienteDTO;
                 })
                 .toList();
