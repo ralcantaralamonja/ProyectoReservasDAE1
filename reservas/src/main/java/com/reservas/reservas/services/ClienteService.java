@@ -31,6 +31,23 @@ public class ClienteService {
         return clienteRepository.save(cliente);
     }
 
+    public Cliente Actualizar(Cliente cliente) {
+        Long clienteId = cliente.getCodigoCliente();
+        Optional<Cliente> optionalCliente = clienteRepository.findById(clienteId);
+
+        if (optionalCliente.isPresent()) {
+            Cliente clienteExistente = optionalCliente.get();
+            clienteExistente.setNombresCliente(cliente.getNombresCliente());
+            clienteExistente.setApellidosCliente(cliente.getApellidosCliente());
+            clienteExistente.setCorreoCliente(cliente.getCorreoCliente());
+            clienteExistente.setCelularCliente(cliente.getCelularCliente());
+
+            return clienteRepository.save(clienteExistente);
+        } else {
+            throw new ClienteNotFundException(clienteId);
+        }
+    }
+
     public void eliminar(Long id){
 
         Optional<Cliente> optionalCliente= clienteRepository.findById(id);

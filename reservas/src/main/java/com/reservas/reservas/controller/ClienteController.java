@@ -32,7 +32,7 @@ public class ClienteController {
 
     @PostMapping("/editar")
     public String actualizar(@ModelAttribute("cliente") Cliente cliente){
-        clienteService.registrar(cliente);
+        clienteService.Actualizar(cliente);
         return "redirect:/cliente";
     }
 

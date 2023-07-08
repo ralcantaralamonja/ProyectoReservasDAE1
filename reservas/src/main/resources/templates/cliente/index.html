@@ -12,14 +12,14 @@
 
 <div class="ingresar">
     <form class="head" th:action="@{/cliente}" method="post" th:object="${cliente}">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" />
-        <label for="apellido">Apellido:</label>
-        <input type="text" id="apellido" name="apellido" />
-        <label for="correo">Correo:</label>
-        <input type="text" id="correo" name="correo" />
-        <label for="numero">Celular:</label>
-        <input type="text" id="numero" name="numero" />
+        <label for="nombresCliente">Nombre:</label>
+        <input type="text" id="nombresCliente" name="nombresCliente" />
+        <label for="apellidosCliente">Apellido:</label>
+        <input type="text" id="apellidosCliente" name="apellidosCliente" />
+        <label for="correoCliente">Correo:</label>
+        <input type="text" id="correoCliente" name="correoCliente" />
+        <label for="celularCliente">Celular:</label>
+        <input type="text" id="celularCliente" name="celularCliente" />
         <br>
         <input class="btnGuardar" type="submit" value="Guardar">
     </form>
