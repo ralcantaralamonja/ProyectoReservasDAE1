@@ -25,7 +25,7 @@ public class ClienteController {
     }
 
     @GetMapping("/editar")
-    public String editar(@RequestParam("id") Long id, Model model){
+    public String editar(@RequestParam("codigoCliente") Long id, Model model){
         model.addAttribute("cliente", clienteService.obtenerporId(id));
         return "/cliente/editar";
     }
@@ -37,7 +37,7 @@ public class ClienteController {
     }
 
     @DeleteMapping("/eliminar")
-    public String eliminar(@ModelAttribute("id") Long id){
+    public String eliminar(@ModelAttribute("codigoCliente") Long id){
         clienteService.eliminar(id);
         return "redirect:/cliente";
     }
