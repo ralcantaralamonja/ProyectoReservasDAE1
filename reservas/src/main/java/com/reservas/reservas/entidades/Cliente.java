@@ -1,15 +1,17 @@
 package com.reservas.reservas.entidades;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.Date;
 
+@AllArgsConstructor
+@NoArgsConstructor
 @Data
 @Entity
+@Table(name = "tbl_cliente")
 public class Cliente {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -28,5 +30,7 @@ public class Cliente {
     private String correoCliente;
     private String celularCliente;
     private String estadoCivilCliente;
+
+    //@OneToMany
 
 }

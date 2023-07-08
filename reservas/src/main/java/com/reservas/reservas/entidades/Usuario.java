@@ -1,13 +1,16 @@
 package com.reservas.reservas.entidades;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.boot.autoconfigure.web.WebProperties;
+
+@AllArgsConstructor
+@NoArgsConstructor
 @Data
 @Entity
+@Table(name = "tbl_usuario")
 public class Usuario {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
