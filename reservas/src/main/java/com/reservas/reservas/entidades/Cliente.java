@@ -24,14 +24,13 @@ public class Cliente implements Serializable {
     private String nombresCliente;
     private String apellidosCliente;
     private String DNICliente ;
-    private Date fecNacCliente;
+
     private String sexoCliente;
     private String tipoCliente;
     private String direccionCliente;
     private String usu_ultModificación;
     private String estadoCliente;
-    private Date fecRegGe_Cliente;
-    private Date fecUltMod_Cliente;
+
     private String correoCliente;
     private String celularCliente;
     private String estadoCivilCliente;
